@@ -2,12 +2,12 @@
 //
 // PHASE: BOOTSTRAP
 //
-define('SKRUTT_INSTALL_PATH', dirname(__FILE__));
-define('SKRUTT_SITE_PATH', SKRUTT_INSTALL_PATH . '/application');
+define('SKOLA_INSTALL_PATH', dirname(__FILE__));
+define('SKOLA_SITE_PATH', SKOLA_INSTALL_PATH . '/application');
 
-require(SKRUTT_INSTALL_PATH.'/src/CSkrutt/bootstrap.php');
+require(SKOLA_INSTALL_PATH.'/src/CSkola/bootstrap.php');
 
-$sk = CSkrutt::Instance();
+$sk = CSkola::Instance();
 
 //
 // PHASE: FRONTCONTROLLER ROUTE
